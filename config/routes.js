@@ -34,7 +34,9 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
+  },
+
+  '/guests': 'UserController.index'
 
   /***************************************************************************
   *                                                                          *
